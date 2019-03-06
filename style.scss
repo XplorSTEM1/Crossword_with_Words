@@ -18,7 +18,7 @@ $color-focus-item: #FFFF74;
 	width: ($crossword-item-size * $crossword-column-count);
 	height: ($crossword-item-size * $crossword-row-count);
 	display: grid;
-	grid-template: repeat(13,7.6923076923076925%) / repeat(13,7.6923076923076925%);
+	grid-template: repeat(18,7.6923076923076925%) / repeat(18,7.6923076923076925%);
 	list-style-type: none;
 	padding: 0;
 	margin: 0 auto;
