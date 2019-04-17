@@ -330,7 +330,7 @@ $color-focus-item: #FFFF74;
 #item2-6:hover ~ .crossword-clues .crossword-clues__list-item--across-2 {
 	background: $color-focus-item;
 }
-##item2-7:active ~ .crossword-clues .crossword-clues__list-item--across-2,
+#item2-7:active ~ .crossword-clues .crossword-clues__list-item--across-2,
 #item2-7:focus ~ .crossword-clues .crossword-clues__list-item--across-2,
 #item2-7:hover ~ .crossword-clues .crossword-clues__list-item--across-2 {
 	background: $color-focus-item;
