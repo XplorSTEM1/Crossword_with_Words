@@ -10,7 +10,8 @@
   width: 900px;
   height: 900px;
   display: grid;
-  grid-template: repeat(18, 7.69231%) / repeat(18, 7.69231%);
+  grid-template-rows: repeat(18, 7.69231%) 
+  grid-template-columns: repeat(18, 7.69231%);
   list-style-type: none;
   padding: 0;
   margin: 0 auto;
