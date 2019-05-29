@@ -64,60 +64,44 @@ $color-focus-item: #ffff74;
 	line-height: 1;
 }
 .crossword-board__item-label--1 {
-	grid-column: 9/9;
+	grid-column: 7/7;
 }
 .crossword-board__item-label--2 {
-	grid-column: 4/4;
-	grid-row: 2/2;
+	grid-column: 12/12;
 }
 .crossword-board__item-label--3 {
-	grid-column: 1/1;
-	grid-row: 3/3;
+	grid-column: 2/2;
+	grid-row: 2/2;
 }
 .crossword-board__item-label--4 {
-	grid-column: 7/7;
+	grid-column: 5/5;
 	grid-row: 4/4;
 }
 .crossword-board__item-label--5 {
-	grid-column: 3/3;
-	grid-row: 5/5;
+	grid-column: 4/4;
+	grid-row: 6/6;
 }
 .crossword-board__item-label--6 {
-	grid-column: 1/1;
+	grid-column: 14/14;
 	grid-row: 6/6;
 }
 .crossword-board__item-label--7 {
-	grid-column: 18/18;
-	grid-row: 6/6;
-}
-.crossword-board__item-label--8 {
-	grid-column: 10/10;
-	grid-row: 8/8;
-}
-.crossword-board__item-label--9 {
 	grid-column: 5/5;
 	grid-row: 10/10;
 }
-.crossword-board__item-label--10 {
-	grid-column: 10/10;
-	grid-row: 13/13;
+.crossword-board__item-label--8 {
+	grid-column: 8/8;
+	grid-row: 12/12;
 }
-.crossword-board__item-label--11 {
-	grid-column: 2/2;
+.crossword-board__item-label--9 {
+	grid-column: 11/11;
+	grid-row: 12/12;
+}
+.crossword-board__item-label--10 {
+	grid-column: 8/10;
 	grid-row: 14/14;
 }
-.crossword-board__item-label--12 {
-	grid-column: 10/10;
-	grid-row: 16/16;
-}
-.crossword-board__item-label--13 {
-	grid-column: 1/1;
-	grid-row: 17/17;
-}
-.crossword-board__item-label--14 {
-	grid-column: 6/6;
-	grid-row: 17/17;
-}
+
 .crossword-board--highlight {
 	position: absolute;
 	z-index: 50;
@@ -133,34 +117,27 @@ $color-focus-item: #ffff74;
 /** ACROSS ANSWERS HIGHLIGHTING START                      */
 /***********************************************************/
 
-.crossword-board__item-highlight--across-2 {
-	grid-column: 4/10;
+.crossword-board__item-highlight--across-3 {
+	grid-column: 2/10;
 	grid-row: 2;
 }
-.crossword-board__item-highlight--across-4 {
-	grid-column: 7/15;
-	grid-row: 4;
-}
-.crossword-board__item-highlight--across-6 {
-	grid-column: 1/10;
+.crossword-board__item-highlight--across-5 {
+	grid-column: 4/13;
 	grid-row: 6;
 }
-.crossword-board__item-highlight--across-9 {
-	grid-column: 5/16;
+.crossword-board__item-highlight--across-7 {
+	grid-column: 5/17;
 	grid-row: 10;
 }
+.crossword-board__item-highlight--across-8 {
+	grid-column: 8/15;
+	grid-row: 12;
+}
 .crossword-board__item-highlight--across-10 {
-	grid-column: 10/19;
-	grid-row: 13;
+	grid-column: 8/14;
+	grid-row: 14;
 }
-.crossword-board__item-highlight--across-12 {
-	grid-column: 10/16;
-	grid-row: 16;
-}
-.crossword-board__item-highlight--across-13 {
-	grid-column: 1/8;
-	grid-row: 17;
-}
+/*--Saved 7:35-->
 
 #item2-4:valid
 	~ #item2-5:valid
