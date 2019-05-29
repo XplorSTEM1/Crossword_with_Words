@@ -137,43 +137,31 @@ $color-focus-item: #ffff74;
 	grid-column: 8/14;
 	grid-row: 14;
 }
-/*--Saved 7:35-->
-
-#item2-4:valid
+/*--Saved 7:35--*/
+#item2-2:valid
+	~ #item2-3:valid
+	~ #item2-4:valid
 	~ #item2-5:valid
 	~ #item2-6:valid
 	~ #item2-7:valid
 	~ #item2-8:valid
 	~ #item2-9:valid
 	~ .crossword-board--highlight
-	.crossword-board__item-highlight--across-2 {
+	.crossword-board__item-highlight--across-3 {
 	opacity: 1;
 }
 
-#item4-7:valid
-	~ #item4-8:valid
-	~ #item4-9:valid
-	~ #item4-10:valid
-	~ #item4-11:valid
-	~ #item4-12:valid
-	~ #item4-13:valid
-	~ #item4-14:valid
-	~ .crossword-board--highlight
-	.crossword-board__item-highlight--across-4 {
-	opacity: 1;
-}
-
-#item6-1:valid
-	~ #item6-2:valid
-	~ #item6-3:valid
-	~ #item6-4:valid
+#item6-4:valid
 	~ #item6-5:valid
 	~ #item6-6:valid
 	~ #item6-7:valid
 	~ #item6-8:valid
 	~ #item6-9:valid
+	~ #item6-10:valid
+	~ #item6-11:valid
+	~ #item6-12:valid		
 	~ .crossword-board--highlight
-	.crossword-board__item-highlight--across-6 {
+	.crossword-board__item-highlight--across-5 {
 	opacity: 1;
 }
 
@@ -188,8 +176,26 @@ $color-focus-item: #ffff74;
 	~ #item10-13:valid
 	~ #item10-14:valid
 	~ #item10-15:valid
+	~ #item10-16:valid
 	~ .crossword-board--highlight
-	.crossword-board__item-highlight--across-9 {
+	.crossword-board__item-highlight--across-7 {
+	opacity: 1;
+}
+/*--Saved 7:44--*/
+
+#item10-5:valid
+	~ #item10-6:valid
+	~ #item10-7:valid
+	~ #item10-8:valid
+	~ #item10-9:valid
+	~ #item10-10:valid
+	~ #item10-11:valid
+	~ #item10-12:valid
+	~ #item10-13:valid
+	~ #item10-14:valid
+	~ #item10-15:valid
+	~ .crossword-board--highlight
+	.crossword-board__item-highlight--across-8 {
 	opacity: 1;
 }
 
@@ -208,28 +214,6 @@ $color-focus-item: #ffff74;
 	opacity: 1;
 }
 
-#item16-10:valid
-	~ #item16-11:valid
-	~ #item16-12:valid
-	~ #item16-13:valid
-	~ #item16-14:valid
-	~ #item16-15:valid
-	~ .crossword-board--highlight
-	.crossword-board__item-highlight--across-12 {
-	opacity: 1;
-}
-
-#item17-1:valid
-	~ #item17-2:valid
-	~ #item17-3:valid
-	~ #item17-4:valid
-	~ #item17-5:valid
-	~ #item17-6:valid
-	~ #item17-7:valid
-	~ .crossword-board--highlight
-	.crossword-board__item-highlight--across-13 {
-	opacity: 1;
-}
 
 /***********************************************************/
 /** ACROSS ANSWERS HIGHLIGHTING END                        */
